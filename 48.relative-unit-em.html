@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Relative unit - em</title>
+    <style>
+        body{
+            font-size: 100px;
+        }
+      #first {
+        background-color: aqua;
+        height: 200px;
+        width: 200px;
+        font-size: 25px;
+      }
+      #second {
+        background-color: blueviolet;
+        height: 40%;
+        width: 80%;
+        font-size: 2em;
+      }
+    </style>
+  </head>
+  <body>
+    Body
+    <div id="first">
+      First
+      <div id="second">Second</div>
+    </div>
+
+    <!-- size relative to the parent element font size -->
+    <!-- facilitates easy scaling of elements  for responsive design -->
+    <!-- Commonly used for setting font sizes adaptively -->
+  </body>
+</html>
