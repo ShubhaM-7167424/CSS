@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position static</title>
+    <style>
+        *{margin: 0; padding: 0; box-sizing: border-box;}
+        .box{
+            height: 50px;
+            width: 50px;
+            border: 2px solid black;
+            margin: 5px;
+        }
+        #box1{
+            background-color: blueviolet;
+            position: static;
+            top: 50px;
+            left: 50px;
+            z-index: 5;
+        }
+        #box2{
+            background-color: fuchsia;
+            position: relative;
+            top: -30px;
+            left: 20px;
+            z-index: 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- for static position zindex doesn't work -->
+    <div id="box1" class="box">Box1</div>
+    <div id="box2" class="box">Box2</div>
+</body>
+</html>
