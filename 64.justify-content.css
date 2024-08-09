@@ -8,7 +8,7 @@
             margin: 5px;
 
             display: flex;
-            justify-content: space-evenly;
+            justify-content: space-between;
         }
         .box{
             height: 75px;
