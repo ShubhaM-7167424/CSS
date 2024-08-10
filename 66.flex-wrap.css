@@ -8,8 +8,7 @@
             margin: 5px;
 
             display: flex;
-            flex-wrap: wrap-reverse;
-
+            flex-wrap: wrap;
         }
         .box{
             height: 150px;
