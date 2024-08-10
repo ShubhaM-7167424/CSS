@@ -21,7 +21,7 @@
         }
         #box1{background-color: aqua;}
         #box2{background-color: fuchsia;
-        align-self: flex-end;}
+        align-self: flex-start;}
         #box3{background-color: yellow;}
         #box4{background-color: yellowgreen;
-        align-self: flex-start;}
+        align-self: flex-end;}
