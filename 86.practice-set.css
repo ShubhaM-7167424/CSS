@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    height: 50px;
+    width: 100%;
+    background-color: turquoise;
+    padding: 10px;
+    font-size: 25px;
+    font-family: sans-serif;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+nav a{
+    text-decoration: none;
+    color: #000;
+}
+
+.section-img{
+    height: 92vh;
+    width: 100%;
+    background-color: violet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-img img{
+    height: 200px;
+}
+
+.section-boxes{
+    height: 100vh;
+    width: 100%;
+    background-color: turquoise;
+    padding: 20px;
+}
+#three-boxes{
+    height: 80vh;
+    width: 100%;
+    border: 5px solid black;
+    padding: 10px;
+    display: flex;
+}
+.box{
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+    
+}
+#box1{
+    background-color: red;
+    flex-shrink: 0;
+}
+#box2{
+    background-color: blue;
+    flex-shrink: 0;
+}
+#box3{
+    background-color: yellow;
+}
+
+.section-media{
+    height: 100vh;
+    width: 100%;
+    background-color: orange;
+    padding: 50px;
+}
+
+#box{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+}
+
+@media screen and (max-width: 300px) {
+    #box{
+        background-color: green;
+    }
+}
+@media screen and (min-width: 400px) {
+    #box{
+        background-color: blue;
+    }
+}
+@media screen and (min-width: 300px) and (max-width: 400px) {
+    #box{
+        background-color: red;
+    }
+}
