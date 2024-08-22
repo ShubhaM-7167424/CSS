@@ -1,0 +1,17 @@
+/* selectors */
+h1 {
+    color: green;
+}
+p {
+    color: red;
+}
+.para3 {
+    font-family: Cambria;
+    color: green;
+}
+.p3 {
+    color: blue;
+}
+#para2 {
+    color: gold;
+}
