@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.products {
+    width: 100%;
+    background-color: grey;
+    padding: 80px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product {
+    width: 20%;
+    height: 400px;
+    background-color: red;
+}
+
+.pro1{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+}
+.pro-child{
+        width: 20%;
+        height: 20%;
+        background-color: yellow;
+}
