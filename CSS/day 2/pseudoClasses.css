@@ -1,0 +1,36 @@
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+
+.one{
+        width: 200px;
+        height: 200px;
+        background-color: blue;
+        margin: 30px;
+        transition: 1s;
+}
+
+.one:hover{
+        background-color: yellow;
+        margin-left: 100px;
+}
+
+.one:active{
+        background-color: fuchsia;
+}
+
+input{
+        margin: 50px;
+}
+input:focus{
+        color: red;
+        border: 10px solid black;
+}
+
+.check:checked{
+        height: 50px;
+        width: 50px;
+        background-color: greenyellow;
+}
