@@ -1,0 +1,19 @@
+By default if position is not mentioned it means it is position static
+- in static position z-index is not allowed
+- neither top bottom left right
+
+relative - element will be always positioned according to its original place
+
+absolute - is positioned according to either the nearest positioned ancestor
+                 or to the viewport
+
+fixed   - is always positioned according to viewport
+        - is not scrollable
+
+sticky - will be scrollable and also fixed at some point
+
+
+absolute and fixed are some what similar the only difference is fixed doesn't move
+
+relative and sticky are some what similar the only difference is sticky will be 
+fixed when the given position is acheived

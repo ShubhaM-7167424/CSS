@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent1 {
+    width: 700px;
+    height: 1600px;
+    border: 10px solid black;
+    margin: 50px;
+    position: relative;
+}
+.parent2 {
+    width: 500px;
+    height: 500px;
+    border: 10px solid brown;
+    margin: 100px;
+}
+.child {
+    width: 100px;
+    height: 100px;
+}
+.one {
+    background-color: yellow;
+}
+
+.two {
+    background-color: blue;
+    
+}
+.three {
+    background-color: deeppink;
+    position: sticky;
+    top: 100px;
+}
