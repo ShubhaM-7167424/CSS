@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent1 {
+    width: 700px;
+    height: 700px;
+    border: 10px solid black;
+    margin: 50px;
+    position: relative;
+}
+.parent2 {
+    width: 500px;
+    height: 500px;
+    border: 10px solid brown;
+    margin: 100px;
+}
+.child {
+    width: 100px;
+    height: 100px;
+}
+.one {
+    background-color: yellow;
+}
+
+/* absolute - is positioned according to either the nearest positioned ancestor
+                 or to the viewport */
+/* browser tries to keep the element there only */
+/* So to see the original position of the absolute element make top and left 0 */
+
+.two {
+    background-color: blue;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.three {
+    background-color: deeppink;
+}
