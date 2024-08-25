@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.one {
+    width: 400px;
+    height: 400px;
+    background-color: red;
+    margin: 200px;
+    transition: 1.5s;
+    font-size: 80px;
+}
+
+.one:hover{
+        /* transform: rotateZ(45deg); */
+        /* transform: rotateY(45deg); */
+        transform:  rotateX(45deg) rotateY(45deg);
+
+}
